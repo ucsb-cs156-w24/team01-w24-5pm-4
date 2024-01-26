@@ -41,10 +41,19 @@ public class UniversityQueryService {
 
     public static final String ENDPOINT = "http://universities.hipolabs.com/search?name={name}";
 
-    //     public static final String ENDPOINT = "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&minmagnitude={minMag}&maxradiuskm={distance}&latitude={latitude}&longitude={longitude}";
-
 
     public String getJSON(String name) throws HttpClientErrorException {
-       return "";
+        log.info("name={}", name);
+        HttpHeaders headers = new HttpHeaders();
+        headers.setAccept(List.of(MediaType.APPLICATION_JSON));
+        headers.setContentType(MediaType.APPLICATION_JSON);
+
+        Map<String, String> uriVariables = Map.of("name", name);
+
+        HttpEntity<String> entity = new HttpEntity<>("body", headers);
+
+        ResponseEntity<String> re = restTemplate.exchange(ENDPOINT, HttpMethod.GET, entity, String.class,
+                uriVariables);
+        return re.getBody();
     }
 }
