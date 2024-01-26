@@ -5,7 +5,6 @@ import java.util.Map;
 
 import lombok.extern.slf4j.Slf4j;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 import org.springframework.web.client.RestTemplate;
 
@@ -42,7 +41,6 @@ public class JokeQueryService {
         HttpEntity<String> entity = new HttpEntity<>("body", headers);
 
         ResponseEntity<String> re = restTemplate.exchange(ENDPOINT, HttpMethod.GET, entity, String.class,uriVariables);
-
         return re.getBody();
     }
 }
