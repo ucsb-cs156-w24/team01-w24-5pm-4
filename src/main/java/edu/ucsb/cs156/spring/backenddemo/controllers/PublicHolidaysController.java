@@ -29,7 +29,7 @@ public class PublicHolidaysController {
     @Autowired
     PublicHolidayQueryService publicHolidayQueryService;
 
-    @Operation(summary = "Get information about a country's public holidays given a year and country code", description = "JSON return format documented here: https://date.nager.at/api/v2/publicholidays/")
+    @Operation(summary = "Get information about a country's public holidays given a year and country code", description = "JSON return format documented here: https://date.nager.at/api/v2/publicHolidays/")
     @GetMapping("/get")
     public ResponseEntity<String> getPublicHolidays(
         @Parameter(name="year", description="year of inquiry", example="2020") @RequestParam String year,
