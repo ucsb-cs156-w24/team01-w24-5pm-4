@@ -35,16 +35,16 @@ public class PublicHolidayControllerTests {
   @Autowired
   private MockMvc mockMvc;
   @MockBean
-  PublicHolidayQueryService mockZipcodeQueryService;
+  PublicHolidayQueryService mockPublicHolidayQueryService;
 
 
   @Test
-  public void test_getZipcodes() throws Exception {
+  public void test_getPublicHoliday() throws Exception {
   
     String fakeJsonResult="{ \"fake\" : \"result\" }";
     String year = "2020";
     String countryCode = "CA";
-    when(mockZipcodeQueryService.getJSON(eq(year), eq(countryCode))).thenReturn(fakeJsonResult);
+    when(mockPublicHolidayQueryService.getJSON(eq(year), eq(countryCode))).thenReturn(fakeJsonResult);
 
     String url = String.format("/api/publicHolidays/get?year=%s&countryCode=%s", year, countryCode);
 
