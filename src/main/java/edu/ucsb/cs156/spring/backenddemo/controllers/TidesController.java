@@ -19,7 +19,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 
-@Tag(name="Tide Information from NOAA https://api.tidesandcurrents.noaa.gov/api/prod/S")
+@Tag(name="Tide Information from NOAA https://api.tidesandcurrents.noaa.gov/api/prod/")
 @Slf4j
 
 @RestController
