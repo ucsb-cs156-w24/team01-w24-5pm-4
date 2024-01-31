@@ -18,7 +18,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
 
 
-@Tag(name="Zipcode info from USGS")
+@Tag(name="ZipCode info from https://api.zippopotam.us/")
 @Slf4j
 @RestController
 @RequestMapping("/api/zipcode")
