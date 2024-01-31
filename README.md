@@ -1,38 +1,21 @@
-# STARTER-team01
+# w24-5pm-4-team01
 
 Lab instructions: <https://ucsb-cs156.github.io/w24/lab/team01.html>
 
-* TODO: Update the following table, then delete this line that says "TODO".
-
 ```
-|   Name    | GitHub Id |  Service                    | Controller                |
-|-----------|-----------|-----------------------------|---------------------------|
-|           |           | `LocationQueryService`      | `LocationController`      |
-|           |           | `PublicHolidayQueryService` | `PublicHolidayController` |
-|           |           | `TidesQueryService`         | `TidesController`         |
-|           |           | `UniversityQueryService`    | `UniversityController`    |
-|           |           | `ZipCodeQueryService`       | `ZipCodeController`       |
+|   Name        | GitHub Id    |  Service                    | Controller                |
+|---------------|--------------|-----------------------------|---------------------------|
+| Anirudh Iyer  | ColeFoster08 | `LocationQueryService`      | `LocationController`      |
+| Samantha West | samanthwest  | `PublicHolidayQueryService` | `PublicHolidayController` |
+| Cory Zhao     | Cory-Zhao    | `TidesQueryService`         | `TidesController`         |
+| Megumi Ondo   | megumi-ondo  | `UniversityQueryService`    | `UniversityController`    |
+| Cole Foster   | ColeFoster08 | `ZipCodeQueryService`       | `ZipCodeController`       |
+| Rui Tong      | Torry051     | `JokeQueryService`          | `JokeController`          |
 ```
 
+Repo: https://github.com/ucsb-cs156-w24/team01-w24-5pm-4
 
-* TODO: Change the title of this README
-  in the text `# STARTER-team01` above
-  to match the name of your repo, i. e., `w24-5pm-2-team01`, then delete
-  this TODO item.
-
-* TODO: Correct the links to repo below,
-  then delete this TODO.  Replace it with
-  a link to your repo, e.g.
-  https://github.com/ucsb-cs156-w24/w24-5pm-2-team01
-
-Repo: https://ucsb-cs156-w24/STARTER-team01
-
-* TODO: Correct the links to app on Dokku below,
-  then delete this TODO.  Replace it with
-  a link to your running app on Dokku, e.g.
-  https://team01.dokku-00.cs.ucsb.edu
-
-On Heroku: https://team01.dokku-00.cs.ucsb.edu
+On Heroku: http://team01.dokku-08.cs.ucsb.edu
 
 ## About this repo
 
@@ -59,4 +42,3 @@ team of up to 5 students can build a proxy similar to the one in the example cod
 # Deploying on Dokku
 
 For advice on deploying on Dokku, see: [/docs/dokku.md](/docs/dokku.md)
-
