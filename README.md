@@ -3,17 +3,17 @@
 Lab instructions: <https://ucsb-cs156.github.io/w24/lab/team01.html>
 
 ```
-|   Name        | GitHub Id |  Service                    | Controller                |
-|---------------|-----------|-----------------------------|---------------------------|
-| Anirudh Iyer  |TODO       | `LocationQueryService`      | `LocationController`      |
-| Samantha West |TODO       | `PublicHolidayQueryService` | `PublicHolidayController` |
-| Cory Zhao     | Cory-Zhao | `TidesQueryService`         | `TidesController`         |
-| Megumi Ondo   |TODO       | `UniversityQueryService`    | `UniversityController`    |
-| Cole Foster   |TODO       | `ZipCodeQueryService`       | `ZipCodeController`       |
-| Rui Tong      |TODO       | `JokeQueryService`          | `JokeController`          |
+|   Name        | GitHub Id    |  Service                    | Controller                |
+|---------------|--------------|-----------------------------|---------------------------|
+| Anirudh Iyer  | ColeFoster08 | `LocationQueryService`      | `LocationController`      |
+| Samantha West | samanthwest  | `PublicHolidayQueryService` | `PublicHolidayController` |
+| Cory Zhao     | Cory-Zhao    | `TidesQueryService`         | `TidesController`         |
+| Megumi Ondo   | megumi-ondo  | `UniversityQueryService`    | `UniversityController`    |
+| Cole Foster   | ColeFoster08 | `ZipCodeQueryService`       | `ZipCodeController`       |
+| Rui Tong      | Torry051     | `JokeQueryService`          | `JokeController`          |
 ```
 
-Repo: https://github.com/ucsb-cs156-w24/w24-5pm-4-team01
+Repo: https://github.com/ucsb-cs156-w24/team01-w24-5pm-4
 
 On Heroku: http://team01.dokku-08.cs.ucsb.edu
 
@@ -42,4 +42,3 @@ team of up to 5 students can build a proxy similar to the one in the example cod
 # Deploying on Dokku
 
 For advice on deploying on Dokku, see: [/docs/dokku.md](/docs/dokku.md)
-
