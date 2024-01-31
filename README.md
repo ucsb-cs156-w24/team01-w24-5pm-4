@@ -5,7 +5,7 @@ Lab instructions: <https://ucsb-cs156.github.io/w24/lab/team01.html>
 ```
 |   Name        | GitHub Id    |  Service                    | Controller                |
 |---------------|--------------|-----------------------------|---------------------------|
-| Anirudh Iyer  | ColeFoster08 | `LocationQueryService`      | `LocationController`      |
+| Anirudh Iyer  | anirudhiyer1 | `LocationQueryService`      | `LocationController`      |
 | Samantha West | samanthwest  | `PublicHolidayQueryService` | `PublicHolidayController` |
 | Cory Zhao     | Cory-Zhao    | `TidesQueryService`         | `TidesController`         |
 | Megumi Ondo   | megumi-ondo  | `UniversityQueryService`    | `UniversityController`    |
